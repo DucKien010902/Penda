@@ -1,4 +1,4 @@
-import mongoose, { Collection } from "mongoose";
+import mongoose from "mongoose";
 import crypto from "crypto";
 
 const { v1: uuidv1 } = require("uuid");
