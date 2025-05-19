@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
 
-import { signup, signin, signout, verify } from '../controllers/auth';
+import { signup, signin, signout, verify } from '../controllers/auth.js';
 
 // Authorziation: `Bearer ${token}`
 
