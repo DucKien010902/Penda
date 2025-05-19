@@ -44,7 +44,7 @@ export const signin = async (req, res) => {
     }
 
     // Tạo token
-    const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET);
+    const token = jwt.sign({ _id: user._id }, 'duy');
     
     // Lưu token vào cookie
     res.cookie("t", token, { expire: new Date() + 9999 });
