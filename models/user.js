@@ -50,7 +50,7 @@ const userSchema = mongoose.Schema(
     users_image_url: { type: String },
   },
   { timestamps: true,
-    collection: 'User'
+    collection: 'users'
    }
 );
 
@@ -83,6 +83,6 @@ userSchema.methods = {
   },
 };
 
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model("users", userSchema);
 
 
