@@ -3,7 +3,7 @@ import axios from "axios";
 import { CronJob } from "cron";
 import Ebayitem from '../models/ebayitem.js';
 import moment from "moment";
-const cheerio = require("cheerio");
+import cheerio from 'cheerio';
 
 // Tạo hàm create
 export const create = (req, res) => {

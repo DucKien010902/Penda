@@ -82,4 +82,5 @@ const ebaySchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Ebay", ebaySchema);
+const Ebay = mongoose.model("Ebay", ebaySchema);
+export default Ebay;

@@ -81,4 +81,5 @@ const mailSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Mail", mailSchema);
+const Mail = mongoose.model("Mail", mailSchema);
+export default Mail;

@@ -17,4 +17,5 @@ const ebayitemSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Ebayitem", ebayitemSchema);
+const Ebayitem = mongoose.model("Ebayitem", ebayitemSchema);
+export default Ebayitem;

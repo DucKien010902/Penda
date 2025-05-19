@@ -6,4 +6,4 @@ router.post("/blog/update", update);
 router.get("/blog/list", list);
 router.get("/blog/content/:id", content);
 
-module.exports = router;
+export default router;

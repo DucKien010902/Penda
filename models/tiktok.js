@@ -81,4 +81,5 @@ const tiktokSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Tiktok", tiktokSchema);
+const Tiktok = mongoose.model("Tiktok", tiktokSchema);
+export default Tiktok;

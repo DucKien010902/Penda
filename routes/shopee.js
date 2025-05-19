@@ -23,4 +23,4 @@ router.get("/shopee/get/:shopeeId",canViewShopee, getshopee);
 // View count trong shopee_class
 router.get("/getshopee/count", getCountShopee_class);
 
-module.exports = router;
+export default router;

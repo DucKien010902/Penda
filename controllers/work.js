@@ -4,7 +4,8 @@ import Ebay from '../models/ebay.js';
 import Device from '../models/device.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
 import Users from '../models/user.js';
-import moment, { now } from "moment";
+import moment from "moment";
+const now = moment.now;
 
 // Update dữ liệu từ mail_info ( đang gặp vấn đề quyền nhân viên uodate thì nhiều field bị rỗng)
 export const update = (req, res) => {

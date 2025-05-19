@@ -1,6 +1,7 @@
 import TimeSheet from '../models/timeSheet.js';
-import moment, { now } from "moment";
-const requestIp = require("request-ip");
+import moment from "moment";
+const now = moment.now;
+import requestIp from 'request-ip';
 
 export const create = (req, res) => {
   if (req.body.working_date == "Invalid Date" || req.body.users_name == "") {

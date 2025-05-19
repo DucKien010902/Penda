@@ -29,4 +29,4 @@ router.get("/ebay/search",canViewEbay, searchEbay);
 
 router.get("/ebay/Gologincare", Gologincare);
 
-module.exports = router;
+export default router;

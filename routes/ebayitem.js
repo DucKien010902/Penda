@@ -8,4 +8,4 @@ router.post('/ebayitem/create', create);
 router.put('/ebayitem/update', update)
 router.get('/ebayitem/list',canViewEbayitem, listebayitem)
 router.get('/ebayitem/get/:ebayitemId',canViewEbayitem, getebayitem)
-module.exports = router;
+export default router;

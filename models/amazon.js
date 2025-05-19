@@ -82,4 +82,5 @@ const amazonSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Amazon", amazonSchema);
+const Amazon = mongoose.model("Amazon", amazonSchema);
+export default Amazon;

@@ -23,4 +23,4 @@ router.get("/facebook/get/:facebookId",canViewFacebook, getfacebook);
 // View count trong facebook_class
 router.get("/getfacebook/count", getCountFacebook_class);
 
-module.exports = router;
+export default router;

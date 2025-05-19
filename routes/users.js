@@ -16,4 +16,4 @@ router.put("/users/update", update);
 router.get("/users/list", canViewUsers, listusers);
 router.get("/users/get/:usersId", canViewUsers, getusers);
 router.get("/users/list_timesheets", listusers_timesheets);
-module.exports = router;
+export default router;

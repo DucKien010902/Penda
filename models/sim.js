@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import Sim from '../models/sim.js';
 const { ObjectId } = mongoose.Schema;
 
 const simSchema = mongoose.Schema(
@@ -80,4 +79,5 @@ const simSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Sim", simSchema);
+const Sim = mongoose.model("Sim", simSchema);
+export default Sim;

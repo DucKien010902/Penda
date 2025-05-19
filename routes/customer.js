@@ -23,4 +23,4 @@ router.get("/customer/get/:customerId",canViewCustomer, getcustomer);
 // View count trong customer_class
 router.get("/getcustomer/count", getCountCustomer_class);
 
-module.exports = router;
+export default router;

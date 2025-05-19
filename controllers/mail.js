@@ -2,7 +2,8 @@
 import Mail from '../models/mail.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
 import Users from '../models/user.js';
-import moment, { now } from "moment";
+import moment from "moment";
+const now = moment.now;
 
 export const create = (req, res) => {
   const mail = new Mail(req.body);

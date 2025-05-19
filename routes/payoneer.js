@@ -26,4 +26,4 @@ router.get("/getpayoneer/count", getCountPayoneer_class);
 // Hàm search
 router.get("/payoneer/search",canViewPayoneer, searchPayoneer);
 
-module.exports = router;
+export default router;

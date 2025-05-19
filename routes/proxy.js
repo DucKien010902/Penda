@@ -23,5 +23,5 @@ router.get("/proxy/get/:proxyId",canViewProxy, getproxy);
 // View count trong proxy_class
 router.get("/getproxy/count", getCountProxy_class);
 
-module.exports = router;
+export default router;
 

@@ -2,7 +2,8 @@
 import Payoneer from '../models/payoneer.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
 import Users from '../models/user.js';
-import moment, { now } from "moment";
+import moment from "moment";
+const now = moment.now;
 
 export const create = (req, res) => {
   const payoneer = new Payoneer(req.body);

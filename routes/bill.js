@@ -8,4 +8,4 @@ router.post("/bill_table/update", update);
 router.get("/bill_table/list_table", getBillTable);
 router.post("/billadsds/upate", updatetest);
 router.get("/bill/getemployee", getEmployee);
-module.exports = router;
+export default router;

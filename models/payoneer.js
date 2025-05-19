@@ -81,4 +81,5 @@ const payoneerSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Payoneer", payoneerSchema);
+const Payoneer = mongoose.model("Payoneer", payoneerSchema);
+export default Payoneer;

@@ -4,4 +4,4 @@ import { Create_newdata, getEmployee} from '../controllers/tooldata.js';
 const router = express.Router();
 router.post('/tooldata_create', Create_newdata)
 router.get("/tooldata_get", getEmployee);
-module.exports = router;
+export default router;

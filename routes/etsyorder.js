@@ -10,4 +10,4 @@ router.put('/etsyorder/update', update)
 router.get('/etsyorder/list',canViewEtsyorder, listetsyorder)
 router.get('/etsyorder/get/:etsyorderId',canViewEtsyorder, getetsyorder)
 
-module.exports = router;
+export default router;

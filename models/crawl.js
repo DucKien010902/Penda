@@ -23,4 +23,5 @@ const crawlSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Crawl", crawlSchema);
+const Crawl = mongoose.model("Crawl", crawlSchema);
+export default Crawl;

@@ -5,4 +5,4 @@ import { canViewMail } from '../controllers/mail.js';
 const router = express.Router();
 
 router.put("/mail/updatmailWork", update);
-module.exports = router;
+export default router;

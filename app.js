@@ -1,5 +1,6 @@
 // Test deploy
-var CronJob = require("cron").CronJob;
+import { CronJob } from "cron";
+
 /* import { Avatar, Typography, message } from "antd"; */
 import express from "express";
 import morgan from "morgan";

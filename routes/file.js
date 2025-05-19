@@ -6,4 +6,4 @@ const router = express.Router();
 router.post('/files', upload)
 router.get('files', read)
 
-module.exports = router;
+export default router;

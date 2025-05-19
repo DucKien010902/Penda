@@ -39,4 +39,5 @@ const etsyitemSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Etsyitem", etsyitemSchema);
+const Etsyitem = mongoose.model("Etsyitem", etsyitemSchema);
+export default Etsyitem;

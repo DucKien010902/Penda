@@ -25,4 +25,4 @@ router.get("/info/get/:infoId",canViewInfo, getinfo);
 router.get("/getinfo/count", getCountInfo_class);
 // Hàm search
 router.get("/info/search",canViewInfo, searchInfo);
-module.exports = router;
+export default router;

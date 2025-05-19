@@ -26,5 +26,5 @@ router.get("/getsim/count", getCountSim_class);
 // Hàm search
 router.get("/sim/search",canViewSim, searchSim);
 
-module.exports = router;
+export default router;
 

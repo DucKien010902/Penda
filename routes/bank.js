@@ -23,4 +23,4 @@ router.get("/bank/get/:bankId",canViewBank, getbank);
 // View count trong bank_class
 router.get("/getbank/count", getCountBank_class);
 
-module.exports = router;
+export default router;

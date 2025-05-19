@@ -15,7 +15,7 @@ router.post('/verify', verify);
 
 
 
-module.exports = router;
+export default router;
 
 
 

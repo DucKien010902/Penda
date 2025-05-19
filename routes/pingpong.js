@@ -23,4 +23,4 @@ router.get("/pingpong/get/:pingpongId",canViewPingpong, getpingpong);
 // View count trong pingpong_class
 router.get("/getpingpong/count", getCountPingpong_class);
 
-module.exports = router;
+export default router;

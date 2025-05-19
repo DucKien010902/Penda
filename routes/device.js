@@ -25,5 +25,5 @@ router.get("/device/get/:deviceId",canViewDevice, getdevice);
 router.get("/getdevice/count", getCountDevice_class);
 // Hàm search
 router.get("/device/search",canViewDevice, searchDevice);
-module.exports = router;
+export default router;
 

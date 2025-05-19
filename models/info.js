@@ -63,4 +63,5 @@ const infoSchema = mongoose.Schema(
   },
   { timeStamps: true }
 );
-module.exports = mongoose.model("Info", infoSchema);
+const Info = mongoose.model("Info", infoSchema);
+export default Info;

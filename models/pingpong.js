@@ -81,4 +81,5 @@ const pingpongSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Pingpong", pingpongSchema);
+const Pingpong = mongoose.model("Pingpong", pingpongSchema);
+export default Pingpong;

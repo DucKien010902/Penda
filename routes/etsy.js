@@ -25,5 +25,5 @@ router.get("/etsy/get/:etsyId",canViewEtsy, getetsy);
 router.get("/getetsy/count", getCountEtsy_class);
 // Search etsy
 router.get("/etsy/search",canViewEtsy, searchEtsy);
-module.exports = router;
+export default router;
 

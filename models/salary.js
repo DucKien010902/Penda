@@ -13,4 +13,5 @@ const salarySchema = mongoose.Schema({
     },
 }, { timeStamps: true });
 
-module.exports = mongoose.model("Salary", salarySchema);
+const Salary = mongoose.model("Salary", salarySchema);
+export default Salary;

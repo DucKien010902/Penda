@@ -9,4 +9,4 @@ router.put('/etsyitem/update', update)
 router.get('/etsyitem/list',canViewEtsyitem, listetsyitem)
 router.get('/etsyitem/get/:etsyitemId',canViewEtsyitem, getetsyitem)
 
-module.exports = router;
+export default router;

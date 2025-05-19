@@ -81,4 +81,5 @@ const etsySchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Etsy", etsySchema);
+const Etsy = mongoose.model("Etsy", etsySchema);
+export default Etsy;

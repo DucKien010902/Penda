@@ -29,4 +29,4 @@ router.delete('/contact/:contactId',  remove);
 
 
 
-module.exports = router;
+export default router;

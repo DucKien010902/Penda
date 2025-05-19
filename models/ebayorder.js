@@ -38,4 +38,5 @@ const ebayorderSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Ebayorder", ebayorderSchema);
+const Ebayorder = mongoose.model("Ebayorder", ebayorderSchema);
+export default Ebayorder;

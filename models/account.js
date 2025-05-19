@@ -17,4 +17,5 @@ const accountSchema = mongoose.Schema({
     }
 }, { timeStamps: true });
 
-module.exports = mongoose.model("Account", accountSchema);
+const Account = mongoose.model("Account", accountSchema);
+export default Account;

@@ -23,5 +23,5 @@ router.get("/project/get/:projectId",canViewproject, getproject);
 // View count trong project_class
 router.get("/getproject/count", getCountproject_class);
 
-module.exports = router;
+export default router;
 

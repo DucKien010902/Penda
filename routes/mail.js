@@ -25,5 +25,5 @@ router.get("/mail/get/:mailId",canViewMail, getmail);
 router.get("/getmail/count", getCountMail_class);
 // Hàm search
 router.get("/mail/search",canViewMail, searchMail);
-module.exports = router;
+export default router;
 

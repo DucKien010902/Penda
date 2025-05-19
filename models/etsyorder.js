@@ -39,4 +39,5 @@ const etsyorderSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Etsyorder", etsyorderSchema);
+const Etsyorder = mongoose.model("Etsyorder", etsyorderSchema);
+export default Etsyorder;

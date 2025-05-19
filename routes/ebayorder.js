@@ -9,4 +9,4 @@ router.put('/ebayorder/update', update)
 router.get('/ebayorder/list',canViewEbayorder, listebayorder)
 router.get('/ebayorder/get/:ebayorderId',canViewEbayorder, getebayorder)
 
-module.exports = router;
+export default router;

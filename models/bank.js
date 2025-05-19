@@ -82,4 +82,5 @@ const bankSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Bank", bankSchema);
+const Bank = mongoose.model("Bank", bankSchema);
+export default Bank;

@@ -15,4 +15,4 @@ router.get("/Auto/Gologinreg", Gologinreg);
 router.post("/Autopost/Gologinreg", PostGologinreg);
 router.post("/Autopost/Gologincare", Gologincare);
 
-module.exports = router;
+export default router;

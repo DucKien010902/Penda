@@ -81,4 +81,5 @@ const facebookSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Facebook", facebookSchema);
+const Facebook = mongoose.model("Facebook", facebookSchema);
+export default Facebook;

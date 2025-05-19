@@ -23,4 +23,4 @@ router.get("/tiktok/get/:tiktokId",canViewTiktok, gettiktok);
 // View count trong tiktok_class
 router.get("/gettiktok/count", getCountTiktok_class);
 
-module.exports = router;
+export default router;

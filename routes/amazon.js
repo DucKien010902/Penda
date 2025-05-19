@@ -23,4 +23,4 @@ router.get("/amazon/get/:amazonId",canViewAmazon, getamazon);
 // View count trong amazon_class
 router.get("/getamazon/count", getCountAmazon_class);
 
-module.exports = router;
+export default router;

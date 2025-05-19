@@ -10,4 +10,4 @@ router.get("/departments", list);
 
 router.post("/department/remove", remove)
 
-module.exports = router;
+export default router;

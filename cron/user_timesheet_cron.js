@@ -3,7 +3,8 @@ import Users from '../models/user.js';
 import TimeSheet from '../models/timeSheet.js';
 import Salary from '../models/salary.js';
 
-var CronJob = require("cron").CronJob;
+import { CronJob } from "cron";
+
 
 const renderData = (timeSheet, userss) => {
   let newData = [];

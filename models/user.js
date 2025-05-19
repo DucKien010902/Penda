@@ -1,7 +1,8 @@
 import mongoose from "mongoose";
 import crypto from "crypto";
 
-const { v1: uuidv1 } = require("uuid");
+import { v1 as uuidv1 } from "uuid";
+
 
 const { ObjectId } = mongoose.Schema;
 

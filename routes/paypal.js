@@ -23,4 +23,4 @@ router.get("/paypal/get/:paypalId",canViewPaypal, getpaypal);
 // View count trong paypal_class
 router.get("/getpaypal/count", getCountPaypal_class);
 
-module.exports = router;
+export default router;

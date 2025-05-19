@@ -81,4 +81,5 @@ const shopeeSchema = mongoose.Schema(
   { timeStamps: true }
 );
 
-module.exports = mongoose.model("Shopee", shopeeSchema);
+const Shopee = mongoose.model("Shopee", shopeeSchema);
+export default Shopee;
