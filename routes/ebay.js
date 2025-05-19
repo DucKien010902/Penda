@@ -8,7 +8,7 @@ import {
   searchEbay,
   Gologincare,
   update,
-} from "../controllers/ebay";
+} from "../controllers/ebay.js";
 import { canViewEbay } from '../controllers/ebay.js';
 
 const router = express.Router();
