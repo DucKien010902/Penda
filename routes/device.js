@@ -8,7 +8,7 @@ import {
   searchDevice,
   update,
 } from "../controllers/device";
-import { canViewDevice } from "../controllers/device";
+import { canViewDevice } from '../controllers/device.js';
 
 const router = express.Router();
 // Lấy device_id từ url

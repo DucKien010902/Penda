@@ -1,4 +1,4 @@
-import User from "../models/user";
+import User from '../models/user.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
 import expressJwt from "express-jwt"; // Kiểm tra đăng nhập
 

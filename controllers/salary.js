@@ -1,4 +1,4 @@
-import Salary from "../models/salary";
+import Salary from '../models/salary.js';
 export const list = (req, res) => {
     let date = req.query.month.toString() + "-" + req.query.year.toString();
     Salary.find({ time: date }).exec((err, data) => {

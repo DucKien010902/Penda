@@ -7,7 +7,7 @@ import {
   listcustomer,
   update,
 } from "../controllers/customer";
-import { canViewCustomer } from "../controllers/customer";
+import { canViewCustomer } from '../controllers/customer.js';
 
 const router = express.Router();
 // Lấy customer_id từ url

@@ -1,7 +1,7 @@
-import Crawl from "../models/crawl";
+import Crawl from '../models/crawl.js';
 import axios from "axios";
 import { CronJob } from "cron";
-import Ebayitem from "../models/ebayitem";
+import Ebayitem from '../models/ebayitem.js';
 import moment from "moment";
 const cheerio = require("cheerio");
 

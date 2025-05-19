@@ -7,7 +7,7 @@ import {
   listtiktok,
   update,
 } from "../controllers/tiktok";
-import { canViewTiktok } from "../controllers/tiktok";
+import { canViewTiktok } from '../controllers/tiktok.js';
 
 const router = express.Router();
 // Lấy tiktok_id từ url

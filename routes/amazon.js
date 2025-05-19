@@ -7,7 +7,7 @@ import {
   listamazon,
   update,
 } from "../controllers/amazon";
-import { canViewAmazon } from "../controllers/amazon";
+import { canViewAmazon } from '../controllers/amazon.js';
 
 const router = express.Router();
 // Lấy amazon_id từ url

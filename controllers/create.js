@@ -1,20 +1,20 @@
-import Etsy from "../models/etsy";
-import Ebay from "../models/ebay";
-import Amazon from "../models/amazon";
-import Shopee from "../models/shopee";
-import Facebook from "../models/facebook";
-import Tiktok from "../models/tiktok";
-import Payoneer from "../models/payoneer";
-import Paypal from "../models/paypal";
-import Pingpong from "../models/pingpong";
-import Bank from "../models/bank";
-import Mail from "../models/mail";
-import Sim from "../models/sim";
-import Device from "../models/device";
-import Proxy from "../models/proxy";
-import Info from "../models/info";
+import Etsy from '../models/etsy.js';
+import Ebay from '../models/ebay.js';
+import Amazon from '../models/amazon.js';
+import Shopee from '../models/shopee.js';
+import Facebook from '../models/facebook.js';
+import Tiktok from '../models/tiktok.js';
+import Payoneer from '../models/payoneer.js';
+import Paypal from '../models/paypal.js';
+import Pingpong from '../models/pingpong.js';
+import Bank from '../models/bank.js';
+import Mail from '../models/mail.js';
+import Sim from '../models/sim.js';
+import Device from '../models/device.js';
+import Proxy from '../models/proxy.js';
+import Info from '../models/info.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 
 export const create = (req, res) => {
   let type = req.query.type;

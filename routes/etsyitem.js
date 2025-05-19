@@ -1,6 +1,6 @@
 import express from 'express';
-import { create, etsyitemByID, getetsyitem, listetsyitem, update } from '../controllers/etsyitem';
-import { canViewEtsyitem } from "../controllers/etsyitem";
+import { create, etsyitemByID, getetsyitem, listetsyitem, update } from '../controllers/etsyitem.js';
+import { canViewEtsyitem } from '../controllers/etsyitem.js';
 const router = express.Router();
 
 router.param("etsyitemId", etsyitemByID);

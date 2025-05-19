@@ -1,5 +1,5 @@
 import express from "express";
-import { list } from "../controllers/salary";
+import { list } from '../controllers/salary.js';
 
 
 const router = express.Router();

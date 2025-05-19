@@ -7,7 +7,7 @@ import {
   listshopee,
   update,
 } from "../controllers/shopee";
-import { canViewShopee } from "../controllers/shopee";
+import { canViewShopee } from '../controllers/shopee.js';
 
 const router = express.Router();
 // Lấy shopee_id từ url

@@ -7,7 +7,7 @@ import {
   listbank,
   update,
 } from "../controllers/bank";
-import { canViewBank } from "../controllers/bank";
+import { canViewBank } from '../controllers/bank.js';
 
 const router = express.Router();
 // Lấy bank_id từ url

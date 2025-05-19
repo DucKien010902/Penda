@@ -7,7 +7,7 @@ import {
   listfacebook,
   update,
 } from "../controllers/facebook";
-import { canViewFacebook } from "../controllers/facebook";
+import { canViewFacebook } from '../controllers/facebook.js';
 
 const router = express.Router();
 // Lấy facebook_id từ url

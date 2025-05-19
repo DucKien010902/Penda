@@ -1,5 +1,5 @@
 import express from 'express';
-import { create, submit } from '../controllers/create';
+import { create, submit } from '../controllers/create.js';
 
 const router = express.Router();
 router.post('/create', create)

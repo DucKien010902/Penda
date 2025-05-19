@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Sim from "../models/sim";
+import Sim from '../models/sim.js';
 const { ObjectId } = mongoose.Schema;
 
 const customerSchema = mongoose.Schema(

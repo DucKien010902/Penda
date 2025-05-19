@@ -7,7 +7,7 @@ import {
   listproject,
   update,
 } from "../controllers/project";
-import { canViewproject } from "../controllers/project";
+import { canViewproject } from '../controllers/project.js';
 
 const router = express.Router();
 // Lấy project_id từ url

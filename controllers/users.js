@@ -1,5 +1,5 @@
 // Import model
-import Users from "../models/user";
+import Users from '../models/user.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
 import crypto from "crypto";
 const { v1: uuidv1 } = require("uuid");

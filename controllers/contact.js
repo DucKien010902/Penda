@@ -1,4 +1,4 @@
-import Contact from '../models/contact';
+import Contact from '../models/contact.js';
 import formidable from 'formidable';
 import _ from 'lodash';
 

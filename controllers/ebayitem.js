@@ -1,7 +1,7 @@
 // Import model
-import Ebayitem from "../models/ebayitem";
+import Ebayitem from '../models/ebayitem.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 export const create = (req, res) => {
   const ebayitem = new Ebayitem(req.body);
   ebayitem.save((err, acc) => {

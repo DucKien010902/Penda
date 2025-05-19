@@ -1,4 +1,4 @@
-import Account from '../models/account'
+import Account from '../models/account.js'
 
 export const create = (req, res) => {
     const account = new Account(req.body);

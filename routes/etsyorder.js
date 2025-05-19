@@ -1,7 +1,7 @@
 import express from 'express';
-import { create, etsyorderByID, getetsyorder, listetsyorder, update } from '../controllers/etsyorder';
+import { create, etsyorderByID, getetsyorder, listetsyorder, update } from '../controllers/etsyorder.js';
 
-import { canViewEtsyorder } from "../controllers/etsyorder";
+import { canViewEtsyorder } from '../controllers/etsyorder.js';
 const router = express.Router();
 
 router.param("etsyorderId", etsyorderByID);

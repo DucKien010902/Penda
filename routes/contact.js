@@ -1,6 +1,6 @@
 import express from 'express';
-import { isAdmin, isAuth, requireSignin } from '../controllers/auth';
-import { create, contactByID, list, read, remove } from '../controllers/contact';
+import { isAdmin, isAuth, requireSignin } from '../controllers/auth.js';
+import { create, contactByID, list, read, remove } from '../controllers/contact.js';
 
 const router = express.Router();
 

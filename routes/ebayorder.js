@@ -1,6 +1,6 @@
 import express from 'express';
-import { create, ebayorderByID, getebayorder, listebayorder, update } from '../controllers/ebayorder';
-import { canViewEbayorder } from "../controllers/ebayorder";
+import { create, ebayorderByID, getebayorder, listebayorder, update } from '../controllers/ebayorder.js';
+import { canViewEbayorder } from '../controllers/ebayorder.js';
 const router = express.Router();
 
 router.param("ebayorderId", ebayorderByID);

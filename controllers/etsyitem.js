@@ -1,7 +1,7 @@
 // Import model
-import Etsyitem from "../models/etsyitem";
+import Etsyitem from '../models/etsyitem.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 export const create = (req, res) => {
   const etsyitem = new Etsyitem(req.body);
   etsyitem.save((err, acc) => {

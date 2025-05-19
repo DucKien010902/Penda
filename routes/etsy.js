@@ -8,7 +8,7 @@ import {
   searchEtsy,
   update,
 } from "../controllers/etsy";
-import { canViewEtsy } from "../controllers/etsy";
+import { canViewEtsy } from '../controllers/etsy.js';
 
 const router = express.Router();
 // Lấy etsy_id từ url

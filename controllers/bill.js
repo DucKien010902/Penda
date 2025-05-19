@@ -1,5 +1,5 @@
-import Bill from "../models/bill";
-import Users from "../models/user";
+import Bill from '../models/bill.js';
+import Users from '../models/user.js';
 // Tạo hàm create
 export const create = (req, res) => {
   // bill => là 1 đối tượng được tạo ra từ model Bill -> gồm tất cả các fields như được khai báo trong model bill và gán giá trị

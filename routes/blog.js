@@ -1,5 +1,5 @@
 import express from "express";
-import { content, create,update, list } from "../controllers/blog";
+import { content, create,update, list } from '../controllers/blog.js';
 const router = express.Router();
 router.post("/blog/create", create);
 router.post("/blog/update", update);

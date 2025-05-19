@@ -8,7 +8,7 @@ import {
   update,
   searchMail,
 } from "../controllers/mail";
-import { canViewMail } from "../controllers/mail";
+import { canViewMail } from '../controllers/mail.js';
 
 const router = express.Router();
 // Lấy mail_id từ url

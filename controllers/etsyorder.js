@@ -1,7 +1,7 @@
 // Import model
-import Etsyorder from "../models/etsyorder";
+import Etsyorder from '../models/etsyorder.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 export const create = (req, res) => {
   const etsyorder = new Etsyorder(req.body);
   etsyorder.save((err, acc) => {

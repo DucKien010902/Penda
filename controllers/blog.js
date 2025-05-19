@@ -1,4 +1,4 @@
-import Blog from "../models/blog";
+import Blog from '../models/blog.js';
 
 export const create = (req, res) => {
   const blog = new Blog(req.body);

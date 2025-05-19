@@ -8,7 +8,7 @@ import {
   update,
   searchInfo,
 } from "../controllers/info";
-import { canViewInfo } from "../controllers/info";
+import { canViewInfo } from '../controllers/info.js';
 
 const router = express.Router();
 // Lấy info_id từ url

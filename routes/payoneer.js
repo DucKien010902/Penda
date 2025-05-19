@@ -8,7 +8,7 @@ import {
   update,
   searchPayoneer,
 } from "../controllers/payoneer";
-import { canViewPayoneer } from "../controllers/payoneer";
+import { canViewPayoneer } from '../controllers/payoneer.js';
 
 const router = express.Router();
 // Lấy payoneer_id từ url

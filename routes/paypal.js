@@ -7,7 +7,7 @@ import {
   listpaypal,
   update,
 } from "../controllers/paypal";
-import { canViewPaypal } from "../controllers/paypal";
+import { canViewPaypal } from '../controllers/paypal.js';
 
 const router = express.Router();
 // Lấy paypal_id từ url

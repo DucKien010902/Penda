@@ -1,7 +1,7 @@
 // Import model
-import Ebayorder from "../models/ebayorder";
+import Ebayorder from '../models/ebayorder.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 export const create = (req, res) => {
   const ebayorder = new Ebayorder(req.body);
   ebayorder.save((err, acc) => {

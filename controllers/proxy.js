@@ -1,7 +1,7 @@
 // Import model
-import Proxy from "../models/proxy";
+import Proxy from '../models/proxy.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 import moment, { now } from "moment";
 
 export const create = (req, res) => {

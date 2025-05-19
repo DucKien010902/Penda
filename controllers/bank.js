@@ -1,7 +1,7 @@
 // Import model
-import Bank from "../models/bank";
+import Bank from '../models/bank.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 import moment, { now } from "moment";
 
 export const create = (req, res) => {

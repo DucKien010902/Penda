@@ -7,7 +7,7 @@ import {
   listpingpong,
   update,
 } from "../controllers/pingpong";
-import { canViewPingpong } from "../controllers/pingpong";
+import { canViewPingpong } from '../controllers/pingpong.js';
 
 const router = express.Router();
 // Lấy pingpong_id từ url

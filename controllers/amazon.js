@@ -1,7 +1,7 @@
 // Để nhân file ebay.js--> amazon.js: p ebay,Ebay thành amazon, Amazon sau đó sửa amazon_id trong populate thành lại ebay, có 2 chỗ cần sửa
-import Amazon from "../models/amazon";
+import Amazon from '../models/amazon.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 import moment, { now } from "moment";
 
 export const create = (req, res) => {

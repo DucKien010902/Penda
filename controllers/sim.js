@@ -1,7 +1,7 @@
 // Import model
-import Sim from "../models/sim";
+import Sim from '../models/sim.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 import moment, { now } from "moment";
 
 export const create = (req, res) => {

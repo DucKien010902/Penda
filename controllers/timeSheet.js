@@ -1,4 +1,4 @@
-import TimeSheet from "../models/timeSheet";
+import TimeSheet from '../models/timeSheet.js';
 import moment, { now } from "moment";
 const requestIp = require("request-ip");
 

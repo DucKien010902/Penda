@@ -1,9 +1,9 @@
 // Import model
-import Mail from "../models/mail";
-import Ebay from "../models/ebay";
-import Device from "../models/device";
+import Mail from '../models/mail.js';
+import Ebay from '../models/ebay.js';
+import Device from '../models/device.js';
 import jwt from "jsonwebtoken"; // Tạo ra mã JWT
-import Users from "../models/user";
+import Users from '../models/user.js';
 import moment, { now } from "moment";
 
 // Update dữ liệu từ mail_info ( đang gặp vấn đề quyền nhân viên uodate thì nhiều field bị rỗng)

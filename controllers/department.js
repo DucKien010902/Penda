@@ -1,4 +1,4 @@
-import Department from '../models/department'
+import Department from '../models/department.js'
 
 export const create = (req, res) => {
     const department = new Department(req.body);

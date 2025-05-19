@@ -7,7 +7,7 @@ import {
   listproxy,
   update,
 } from "../controllers/proxy";
-import { canViewProxy } from "../controllers/proxy";
+import { canViewProxy } from '../controllers/proxy.js';
 
 const router = express.Router();
 // Lấy proxy_id từ url

@@ -1,7 +1,7 @@
 import moment from "moment";
-import Users from "../models/user";
-import TimeSheet from "../models/timeSheet";
-import Salary from "../models/salary";
+import Users from '../models/user.js';
+import TimeSheet from '../models/timeSheet.js';
+import Salary from '../models/salary.js';
 
 var CronJob = require("cron").CronJob;
 

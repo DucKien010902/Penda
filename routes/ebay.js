@@ -9,7 +9,7 @@ import {
   Gologincare,
   update,
 } from "../controllers/ebay";
-import { canViewEbay } from "../controllers/ebay";
+import { canViewEbay } from '../controllers/ebay.js';
 
 const router = express.Router();
 // Lấy ebay_id từ url

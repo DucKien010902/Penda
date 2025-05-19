@@ -8,7 +8,7 @@ import {
   update,
   searchSim,
 } from "../controllers/sim";
-import { canViewSim } from "../controllers/sim";
+import { canViewSim } from '../controllers/sim.js';
 
 const router = express.Router();
 // Lấy sim_id từ url
