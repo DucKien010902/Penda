@@ -7,7 +7,7 @@ import {
   listdevice,
   searchDevice,
   update,
-} from "../controllers/device";
+} from "../controllers/device.js";
 import { canViewDevice } from '../controllers/device.js';
 
 const router = express.Router();

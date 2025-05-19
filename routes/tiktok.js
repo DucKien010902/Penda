@@ -6,7 +6,7 @@ import {
   gettiktok,
   listtiktok,
   update,
-} from "../controllers/tiktok";
+} from "../controllers/tiktok.js";
 import { canViewTiktok } from '../controllers/tiktok.js';
 
 const router = express.Router();

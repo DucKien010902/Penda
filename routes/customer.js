@@ -6,7 +6,7 @@ import {
   getcustomer,
   listcustomer,
   update,
-} from "../controllers/customer";
+} from "../controllers/customer.js";
 import { canViewCustomer } from '../controllers/customer.js';
 
 const router = express.Router();

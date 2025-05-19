@@ -7,7 +7,7 @@ import {
   listmail,
   update,
   searchMail,
-} from "../controllers/mail";
+} from "../controllers/mail.js";
 import { canViewMail } from '../controllers/mail.js';
 
 const router = express.Router();

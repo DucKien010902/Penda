@@ -6,7 +6,7 @@ import {
   getpingpong,
   listpingpong,
   update,
-} from "../controllers/pingpong";
+} from "../controllers/pingpong.js";
 import { canViewPingpong } from '../controllers/pingpong.js';
 
 const router = express.Router();

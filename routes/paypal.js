@@ -6,7 +6,7 @@ import {
   getpaypal,
   listpaypal,
   update,
-} from "../controllers/paypal";
+} from "../controllers/paypal.js";
 import { canViewPaypal } from '../controllers/paypal.js';
 
 const router = express.Router();

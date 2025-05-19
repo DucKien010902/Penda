@@ -7,7 +7,7 @@ import {
   listpayoneer,
   update,
   searchPayoneer,
-} from "../controllers/payoneer";
+} from "../controllers/payoneer.js";
 import { canViewPayoneer } from '../controllers/payoneer.js';
 
 const router = express.Router();

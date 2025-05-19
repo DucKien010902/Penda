@@ -6,7 +6,7 @@ import {
   getproject,
   listproject,
   update,
-} from "../controllers/project";
+} from "../controllers/project.js";
 import { canViewproject } from '../controllers/project.js';
 
 const router = express.Router();

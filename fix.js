@@ -1,25 +1,44 @@
-// fix-imports.js
 import fs from 'fs';
 import path from 'path';
 
+/**
+ * Thêm hậu tố `.js` vào các import nội bộ chưa có.
+ */
 function fixImportsInFile(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const fixedContent = content.replace(
     /import\s+(.*?)\s+from\s+['"](\..*?)(?<!\.js)['"]/g,
-    (match, p1, p2) => `import ${p1} from '${p2}.js'`
+    (match, imports, modulePath) => {
+      return `import ${imports} from '${modulePath}.js'`;
+    }
   );
-  fs.writeFileSync(filePath, fixedContent);
+  if (fixedContent !== content) {
+    console.log(`✅ Fixed imports in: ${filePath}`);
+    fs.writeFileSync(filePath, fixedContent);
+  }
 }
 
+/**
+ * Đệ quy tìm tất cả file `.js` trong thư mục.
+ */
 function walk(dir) {
   const files = fs.readdirSync(dir);
   for (const file of files) {
     const fullPath = path.join(dir, file);
     const stat = fs.statSync(fullPath);
-    if (stat.isDirectory()) walk(fullPath);
-    else if (file.endsWith('.js')) fixImportsInFile(fullPath);
+    if (stat.isDirectory()) {
+      walk(fullPath);
+    } else if (file.endsWith('.js')) {
+      fixImportsInFile(fullPath);
+    }
   }
 }
 
-// Gọi thư mục src hoặc nơi bạn chứa code
-walk('./cron');
+// 👉 Chạy script từ root project
+const rootDirs = ['./routes'];
+
+for (const dir of rootDirs) {
+  if (fs.existsSync(dir)) {
+    walk(dir);
+  }
+}

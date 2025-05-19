@@ -6,7 +6,7 @@ import {
   getfacebook,
   listfacebook,
   update,
-} from "../controllers/facebook";
+} from "../controllers/facebook.js";
 import { canViewFacebook } from '../controllers/facebook.js';
 
 const router = express.Router();

@@ -6,7 +6,7 @@ import {
   getproxy,
   listproxy,
   update,
-} from "../controllers/proxy";
+} from "../controllers/proxy.js";
 import { canViewProxy } from '../controllers/proxy.js';
 
 const router = express.Router();

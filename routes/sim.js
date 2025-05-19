@@ -7,7 +7,7 @@ import {
   listsim,
   update,
   searchSim,
-} from "../controllers/sim";
+} from "../controllers/sim.js";
 import { canViewSim } from '../controllers/sim.js';
 
 const router = express.Router();

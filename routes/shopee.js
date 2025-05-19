@@ -6,7 +6,7 @@ import {
   getshopee,
   listshopee,
   update,
-} from "../controllers/shopee";
+} from "../controllers/shopee.js";
 import { canViewShopee } from '../controllers/shopee.js';
 
 const router = express.Router();

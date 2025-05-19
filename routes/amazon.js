@@ -6,7 +6,7 @@ import {
   getamazon,
   listamazon,
   update,
-} from "../controllers/amazon";
+} from "../controllers/amazon.js";
 import { canViewAmazon } from '../controllers/amazon.js';
 
 const router = express.Router();

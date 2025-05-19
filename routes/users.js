@@ -7,7 +7,7 @@ import {
   listusers_timesheets,
   update,
   canViewUsers,
-} from "../controllers/users";
+} from "../controllers/users.js";
 const router = express.Router();
 
 router.param("usersId", usersByID);

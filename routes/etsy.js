@@ -7,7 +7,7 @@ import {
   listetsy,
   searchEtsy,
   update,
-} from "../controllers/etsy";
+} from "../controllers/etsy.js";
 import { canViewEtsy } from '../controllers/etsy.js';
 
 const router = express.Router();

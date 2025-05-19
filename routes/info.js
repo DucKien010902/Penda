@@ -7,7 +7,7 @@ import {
   listinfo,
   update,
   searchInfo,
-} from "../controllers/info";
+} from "../controllers/info.js";
 import { canViewInfo } from '../controllers/info.js';
 
 const router = express.Router();

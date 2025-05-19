@@ -4,7 +4,7 @@ import {
   Gologinreg,
   GologinAllcare,
   PostGologinreg,
-} from "../controllers/autoapi";
+} from "../controllers/autoapi.js";
 
 
 const router = express.Router();

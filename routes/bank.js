@@ -6,7 +6,7 @@ import {
   getbank,
   listbank,
   update,
-} from "../controllers/bank";
+} from "../controllers/bank.js";
 import { canViewBank } from '../controllers/bank.js';
 
 const router = express.Router();
