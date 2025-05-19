@@ -62,7 +62,7 @@ import { crawl_SKU_cron, update_SKU_cron } from "./controllers/crawl.js";
 const app = express();
 dotenv.config();
 app.use(morgan("dev"));
-const port = process.env.PORT || 8000;
+const port = 3311 || 8000;
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(cors());
 
@@ -119,7 +119,7 @@ app.use("/api", salaryRouter);
 //MongoDB
 mongoose
   .connect(
-    process.env.MONGO_DB_URL,
+    "mongodb://beae:BeaeDevteam%40@172.104.49.160:27017/penda_data?authSource=admin",
     {
       useNewUrlParser: true,
       useCreateIndex: true,
