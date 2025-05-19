@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-
+  "type": "commonjs",
   "scripts": {
     "start": "nodemon ./app.js --exec babel-node -e js"
   },
   "keywords": [],
   "repository": {
-    "type": "module",
     "url": "git+https://github.com/DucKien010902/Penda.git"
   },
   "author": "",
